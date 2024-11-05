@@ -1,0 +1,20 @@
+---
+global:
+  logging:
+    level: warn
+  domain: argocd.local
+configs:
+  params:
+    server.insecure: true
+server:
+  replicas: 1
+  resources:
+    limits:
+      memory: 384Mi
+    requests:
+      cpu: 10m
+      memory: 384Mi
+  ingress:
+    enabled: true
+    hosts:
+      - "argocd.local"
