@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: hw-app-deploy
+  name: hw-app
   namespace: argo-hello-world
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: hw-app
