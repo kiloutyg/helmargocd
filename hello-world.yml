@@ -48,7 +48,7 @@ metadata:
   name: hw-ingress
 spec:
   rules:
-  - host: localhost
+  - host: hw-app.local
     http:
       paths:
       - path: /
