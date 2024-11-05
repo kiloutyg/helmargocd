@@ -55,6 +55,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: hw-app
+            name: hw-load-balancer
             port:
               number: 80
