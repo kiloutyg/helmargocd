@@ -4,8 +4,7 @@ metadata:
   name: hw-load-balancer
 spec:
   ports:
-    - name: web
-      protocol: TCP
+    - protocol: TCP
       port: 80
       targetPort: 80
   type: LoadBalancer
