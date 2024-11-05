@@ -12,6 +12,8 @@ kind: Service
 metadata:
   name: hw-load-balancer
 spec:
+  selector:
+    app: hw-app
   ports:
     - protocol: TCP
       port: 80
