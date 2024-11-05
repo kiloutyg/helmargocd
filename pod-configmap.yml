@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: hello-world-configmap
+  name: hw-configmap
   namespace: argo-hello-world
 data:
   # Key-value pairs
