@@ -3,8 +3,6 @@ kind: ConfigMap
 metadata:
   name: hw-configmap
 data:
-  # Key-value pairs
   APP_ENV: "production"
   APP_DEBUG: "false"
   HOSTNAME: "pizza"
-  hostname: "pizza"
