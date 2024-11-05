@@ -22,7 +22,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hw-app
-  namespace: argo-hello-world
+  namespace: argo-hello-world-perso
 spec:
   replicas: 1
   selector:
