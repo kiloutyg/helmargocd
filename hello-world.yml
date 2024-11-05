@@ -57,4 +57,4 @@ spec:
           service:
             name: hw-app
             port:
-              number: 80
+              number: 9090
