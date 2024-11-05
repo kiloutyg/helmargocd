@@ -40,7 +40,7 @@ spec:
           image: rancher/hello-world:latest
           ports:
             - containerPort: 80
-          valueFrom:
+          envFrom:
             - configMapRef:
                 name: hw-configmap
 ---
