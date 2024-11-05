@@ -2,7 +2,6 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: hw-app-deployment
-  namespace: argo-hello-world
   labels:
     app: hw-app
 spec:
