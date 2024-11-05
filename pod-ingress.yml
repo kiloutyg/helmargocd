@@ -13,5 +13,4 @@ spec:
           service:
             name: hello-world
             port:
-              name: web
               number: 80
