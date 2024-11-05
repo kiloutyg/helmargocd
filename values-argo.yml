@@ -18,3 +18,6 @@ server:
     enabled: true
     hosts:
       - "argocd.local"
+    annotations: 
+      nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+      nginx.ingress.kubernetes.io/ssl-passthrough: "true"
